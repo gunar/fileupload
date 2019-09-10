@@ -1,0 +1,26 @@
+{
+  "name": "gunar-20190910",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "mkdir -p public && mkdir -p tmp && next build",
+    "dev": "mkdir -p public && mkdir -p tmp && next dev",
+    "start": "mkdir -p public && mkdir -p tmp && next start",
+    "test": "mkdir -p public && mkdir -p tmp && cypress run"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "micro": "^9.3.4",
+    "multiparty": "^4.2.1",
+    "next": "9.0.5",
+    "p-debounce": "^2.1.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-toastify": "^5.3.2",
+    "striptags": "^3.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^3.4.1",
+    "cypress-file-upload": "^3.3.3"
+  }
+}
